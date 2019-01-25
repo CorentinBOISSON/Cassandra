@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>battleship</groupId>
+    <artifactId>ADSA</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <name>Battleship</name>
+    <description>Battleship in Java</description>
+    <packaging>jar</packaging>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+
+            </plugins>
+        </pluginManagement>
+
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+            </testResource>
+            <testResource>
+                <directory>src/test/java</directory>
+                <includes>
+                    <include>**/*.feature</include>
+                </includes>
+            </testResource>
+        </testResources>
+    </build>
+
+    <scm>
+        <connection>scm:git:https://github.com/CorentinBOISSON/Cassandra.git</connection>
+        <developerConnection>scm:git:https://github.com/CorentinBOISSON/Cassandra.git</developerConnection>
+        <url>https://github.com/CorentinBOISSON/Cassandra.git</url>
+    </scm>
+    
+</project>
